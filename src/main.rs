@@ -1,18 +1,18 @@
-#![feature(variant_count)]
+// #![feature(variant_count)]
 mod file;
 
 mod day1;
-mod day2;
-mod day3;
-mod day4;
-mod day5;
-mod day6;
-mod day7;
-mod day8;
-mod day9;
+// mod day2;
+// mod day3;
+// mod day4;
+// mod day5;
+// mod day6;
+// mod day7;
+// mod day8;
+// mod day9;
 
 fn main() {
-    // day1::part1();
+    day1::part1();
     // day1::part2();
     // day2::part1();
     // day2::part2();
@@ -28,5 +28,5 @@ fn main() {
     // day7::part2();
     // day8::part1();
     // day8::part2();
-    day9::part1();
+    // day9::part1();
 }
