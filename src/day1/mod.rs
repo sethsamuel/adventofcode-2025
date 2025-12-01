@@ -73,12 +73,16 @@ pub fn part2() {
 mod tests {
     use super::*;
 
-    static TEST_STR: &str = "3   4
-4   3
-2   5
-1   3
-3   9
-3   3";
+    static TEST_STR: &str = "L68
+L30
+R48
+L5
+R60
+L55
+L1
+L99
+R14
+L82";
 
     #[test]
     fn test_parse_line() {
